@@ -1,0 +1,19 @@
+form{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    line-height: 2%;
+}
+
+.logo{
+    height: 59px;
+    width: 68px;
+}
+
+.LogoText{
+font-family: 'Courier New', Courier, monospace;
+text-align: center;
+}
+
+a:hover{
+    background-color: yellow;
+}
