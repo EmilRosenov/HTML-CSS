@@ -1,0 +1,1 @@
+this is an exircise for media queries
