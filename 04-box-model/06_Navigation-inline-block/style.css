@@ -1,0 +1,33 @@
+html{
+    font-family: Helvetica, sans-serif;
+}
+
+header{
+    border-bottom: solid 2px black;
+}
+
+h1{
+    display: inline-block;
+}
+.navigation{
+display: inline-block;
+
+}
+
+a{
+    color: green;
+    text-decoration: none;
+}
+
+.home{
+    display: inline-block;
+}
+.about{
+    display: inline-block;
+}
+.blog{
+    display: inline-block;
+}
+.contact{
+    display: inline-block;
+}
