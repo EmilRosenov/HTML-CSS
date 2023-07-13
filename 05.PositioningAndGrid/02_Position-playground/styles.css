@@ -1,0 +1,66 @@
+.card{
+    border: 1px solid black;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    display: block;
+}
+
+
+
+.viewport1{
+    background-color: aqua;
+    /* display: block; */
+}
+
+.viewport2{
+    background-color: orangered;
+    display: block;
+    
+}
+
+.viewport1 img{
+    display: block;
+    position: relative;
+    top: auto;
+    bottom: auto;
+    height: 100px;
+    width: 180px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+.viewport1 i{
+    
+   position: absolute;
+   margin-left: 602px;
+   top: 127px;
+   color: #fff;
+}
+
+.viewport2 img{
+    display: block;
+    position: relative;
+    height: 260px;
+    width :180px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    
+}
+
+.viewport2 i{
+    
+    position: relative;
+    margin-left: 602px;
+    bottom: 20px;
+    color: #fff;
+}
+
+
+
+
+
