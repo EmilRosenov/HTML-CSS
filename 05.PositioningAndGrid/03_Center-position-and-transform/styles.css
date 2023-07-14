@@ -1,0 +1,60 @@
+html{
+    font-family: Georgia, serif;
+    font-size: 1em;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 1.2em;
+}
+body{
+    background-color: rgb(238, 238, 238) ;
+    
+}
+.card{
+    background-color: rgb(255, 255, 255);
+    max-width: 508px;
+    min-width: 508px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 6px solid gray;
+    
+}
+
+button{
+    display: inline-block;
+    background-color: rgb(0,153,0);
+    border-radius: 4px;
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+    left: 420px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.image{
+    
+    height: 60vh;
+    
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+.info{
+    height: 40vh;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.image img{
+    position: absolute;
+    width: 508px;
+    height: 60vh;
+
+}
+
+.text h3, p{
+    top: 40px;
+    padding-left: 20px;
+}
