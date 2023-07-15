@@ -1,0 +1,122 @@
+html{
+    font-family: Georgia, serif;
+    font-size: 1em;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 1.2em;
+}
+
+.nav p{
+    display: inline-block;
+}
+
+.nav p{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+header nav{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+nav li{
+    display: inline-block;
+    position: relative;
+    left: 280%; 
+    color: green;
+    font-size: 14px;
+}
+
+article{
+    display: inline-block;
+}
+section{
+    display: inline-block;
+}
+.stranica{
+    width: 190px;
+    max-width: 190px;
+
+}
+.stranica aside .side_txt{
+    display: inline-block;
+}
+
+.header_hero{
+    display: inline-block;
+    width:620px ;
+    margin-right: 20px;
+}
+
+h1{
+    font-weight: 700;
+}
+
+
+.main img{
+    float: right;
+    border: solid 2px black;
+    padding: 8px;
+}
+
+aside {
+    display: inline-block;
+    width: 200px;
+    
+}
+.side_txt{
+    display: inline-block;
+    width: 190px;
+}
+
+.categories h3{
+    margin-left: 10px;
+}
+
+.socials h3{
+    margin-left: 10px;
+}
+
+.cats a {
+    color: green;
+    text-decoration: none;
+}
+
+.soc a{
+    color: green;
+    text-decoration: none;
+}
+
+main{
+    width: 680px;
+}
+
+.divided_text{
+    display: inline-block;
+    width:350px;
+    vertical-align: top;
+    border-right: 1px solid lightgrey;
+    margin-right: 10px;
+
+
+}
+
+.second_div_txt{
+    display: inline-block;
+    width:230px;
+    margin-left:20px ; 
+}
+
+.name{
+    text-align: right;
+}
+
+.two img{
+    float: left;
+    border: solid 2px black;
+    padding: 8px;
+    margin: 6px;
+
+}
+
