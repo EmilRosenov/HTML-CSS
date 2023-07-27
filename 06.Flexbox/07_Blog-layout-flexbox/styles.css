@@ -1,0 +1,128 @@
+body{
+    background-color: rgb(238, 238, 238);
+}
+
+
+
+.page>article>header{
+    border-bottom: 4px solid black;
+    
+}
+.page{
+    display: flex;
+    flex-wrap: wrap; 
+    padding: 30px 80px;
+}
+
+.first_article h1{
+    font-size: 36px;
+}
+
+.left img{
+    float: right;
+    border: 4px solid black;
+    padding: 6px;
+    margin-left: 15px;
+    margin-bottom: 25px;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.hero {
+    display: flex;
+    width: 60vw;
+    align-content: space-between;
+    
+}
+
+aside{
+    margin-left: 60px;
+    flex-direction: column;
+    display: flex;
+    width: 20vw;
+    position: absolute;
+    top: 180px;
+    right: 60px;
+    
+}
+.categoriesSpan,
+.socialSpan
+{
+    font-weight: 600;
+}
+
+ul{
+    list-style-type: square;
+}
+
+.categories a{
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
+
+.social a{
+    text-decoration: none;
+    color:rgb(0, 153, 0);
+}
+
+
+/* 2nd article */
+
+
+.second_article{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+}
+
+div .divided .lefthandside{
+    display: inline-flex;
+    text-align: left;
+    width: 28vw;
+    border-right: 1px solid lightgrey;
+    
+
+}
+
+div .divided .righthandside{
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+    width: 30vw;
+    text-align: left;
+    
+    
+}
+
+div .authorName{
+    display: flex;
+    position: relative;
+    top: 20px;
+    left: 260px;
+    font-style: italic;
+    color: darkgrey;
+}
+
+div .divided{
+    justify-content: space-between;
+}
+blockquote{
+    font-family: Georgia, serif;
+    font-style: italic;
+    color: darkgrey;
+}
+
+/* 3rd article */
+
+.third_article{
+    width: 60vw;
+}
+.third_article img{
+    float: left;
+    border: 4px solid black;
+    padding: 6px;
+    margin-right: 15px;
+    margin-bottom: 25px;
+    background-color: rgb(255, 255, 255);
+}
+
