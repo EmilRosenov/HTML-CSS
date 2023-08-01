@@ -1,0 +1,196 @@
+body{
+    background-color: rgb(238,238,238);
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    
+}
+h2{
+   text-align: justify;
+}
+
+.cards-layout-masonry{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+}
+
+.masonry{
+    display: flex;
+    width: 500px;
+    column-gap: 10px;
+    align-self:auto;
+
+}
+
+.firstcol,
+.secondcil,
+.thirdcol{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-items: flex-start;
+    width: 350px;
+    column-gap: 10px;
+}
+
+
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6,
+.card7,
+.card8{
+
+box-shadow: 1px 1px 50px grey;
+margin-bottom: 20px;
+}
+
+
+.card1 img,
+.card2 img,
+.card3 img,
+.card4 img,
+.card5 img,
+.card6 img,
+.card7 img,
+.card8 img{
+box-shadow: 1px 1px 5px blue;
+margin-bottom: 20px;
+position: relative;
+transform: translate(-50% -50%);
+}
+
+.card3 img, .card7 img{
+    position: relative;
+    left: 42px;
+    transform: translate(-50% -50%);
+}
+
+.card1 p,
+.card2 p,
+.card3 p,
+.card4 p,
+.card5 p,
+.card6 p,
+.card7 p,
+.card8 p{
+text-indent: 15px;
+padding-left: 10px;
+margin-bottom: 20px;
+}
+
+.card1 h3,
+.card2 h3,
+.card3 h3,
+.card4 h3,
+.card5 h3,
+.card6 h3,
+.card7 h3,
+.card8 h3{
+    text-indent: 15px;
+}
+
+footer{
+    border-top: 2px solid black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-indent: 15px;
+}
+
+
+.cards-layout-flex{
+        width: 1400px;
+        height: 2400px;
+        row-gap: 10px;
+        column-gap: 20px;
+        display: flex;
+        flex-direction: column;
+       
+}
+
+.flex{
+    width: 1280px;
+    height:2400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content:space-between;
+   
+}
+
+.firstColflex,
+.secondcolflex,
+.thirdcolflex{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 2000px;
+    gap: 20px;
+    
+}
+
+
+.card1flex img,
+.card2flex img,
+.card3flex img,
+.card4flex img,
+.card5flex img,
+.card6flex img,
+.card7flex img,
+.card8flex img{
+box-shadow: 1px 1px 5px blue;
+margin-bottom: 20px;
+position: relative;
+transform: translate(-50% -50%);
+height: 40vh;
+
+}
+
+
+.card1flex,
+.card2flex,
+.card3flex,
+.card4flex,
+.card6flex,
+.card5flex,
+.card7flex,
+.car8flex{
+    display: flex;
+    flex-direction: column;
+    height: 666.666px;
+    box-shadow: 1px 1px 50px green;
+    margin-bottom: 5px;
+    margin-right: 5px;
+
+}
+
+.card1flex p,
+.card2flex p,
+.card3flex p,
+.card4flex p,
+.card5flex p,
+.card6flex p,
+.card7flex p,
+.card8flex p{
+text-indent: 15px;
+padding-left: 10px;
+margin-bottom: 20px;
+}
+
+.card1flex h3,
+.card2flex h3,
+.card3flex h3,
+.card4flex h3,
+.card5flex h3,
+.card6flex h3,
+.card7flex h3,
+.card8flex h3{
+    text-indent: 15px;
+}
+
+
