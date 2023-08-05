@@ -1,0 +1,48 @@
+/* 376 */
+html{
+    
+    font-family: Helvetica, sans-serif;
+    font-size: 1em;
+}
+body{
+    background-color: rgb(238, 238, 238);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section{
+    background-color: rgb(255, 255, 255);
+    width: 398px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px grey;
+    margin: 0 auto;
+    
+    
+}
+
+h1{
+    font-family: Georgia, serif;
+    font-size: 1.2em;
+
+}
+
+.hero_text{
+    position: relative;
+    padding: 15px;
+}
+
+.btn{
+    background-color: rgb(0, 153, 0);
+    position: absolute;
+    top: 90px;
+    right: 15px;
+    color: white;
+    outline: 1px solid white;
+    box-shadow: 1px 1px 10px white;
+
+}
