@@ -1,0 +1,404 @@
+/* Desktop 1280×720 through 1920×1080
+Laptop 1280px - 1920px
+Tablet 601×962 through 1280×800
+Phone  360×640 through 414×896 */
+
+body{
+    background-color: rgb(214, 229, 234);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* HEAER */
+.start{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100px;
+    gap: 10px;
+    background-color: aliceblue;
+    border-bottom: 2px solid lightcoral;
+    align-content: center;
+}
+
+.head_div{
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    
+}
+
+.head_div h1{
+    color: purple;
+}
+
+.head_div span{
+    font-size: 8px;
+    text-decoration: wavy;
+    text-transform: uppercase;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    
+
+}
+
+nav>ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-end;
+    align-items: center;
+    text-decoration: none;
+}
+
+nav>ul>li{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+    margin-right: 15px;
+    align-items: center;
+    
+}
+
+nav>ul>li>a{
+    text-decoration: none;
+    color: purple;
+}
+
+
+
+/* Main */
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 60px 0px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 680px;
+    height: 170px;
+    
+}
+
+.need{
+    display: flex;
+    flex-direction: column;
+    width: 490px;
+    text-align: left;
+    margin-right: 30px;
+}
+
+.need>button{
+    width: 220px;
+    border-radius: 6px;
+    margin: 10px 0px;
+}
+
+
+.container .globe i{
+    margin-left: 20px;
+    font-size: 156px;
+
+}
+
+/* Section Our_team */
+
+.our_team_header{
+    display: grid;
+    grid-template-areas: ". h1 .";
+    margin-bottom: 40px;
+}
+
+.our_team_header h1{
+    grid-area: h1;
+    border-bottom: 2px solid black;
+    line-height: 3.5;
+    font-size: 36px;
+    text-align: center;
+}
+
+
+.members{
+    display: grid;
+    grid-template-areas: 
+    "grid1 grid2 grid3"
+    "grid4 grid5 grid6";
+    gap: 20px;
+}
+
+.firstMember{
+    grid-area: grid1;
+    text-align: center;
+}
+
+.secondMember{
+    grid-area: grid2;
+    text-align: center;
+}
+
+.third{
+    grid-area: grid3;
+    text-align: center;
+}
+
+.fourth{
+    grid-area: grid4;
+    text-align: center;
+}
+
+.fifth{
+    grid-area: grid5;
+    text-align: center;
+}
+
+
+.sixth{
+    grid-area: grid6;
+    text-align: center;
+}
+
+.firstMember>img{
+    box-sizing: border-box;
+    height: 80px;   
+    width: 80px;
+    object-fit: cover;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: 40px;
+
+}
+
+.secondMember>img{
+    box-sizing: border-box;
+    height: 80px;   
+    width: 80px;
+    object-fit: cover;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: 40px;
+
+}
+
+.third>img{
+    box-sizing: border-box;
+    height: 80px;   
+    width: 80px;
+    object-fit: cover;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: 40px;
+
+}
+
+.fourth>img{
+    box-sizing: border-box;
+    height: 80px;   
+    width: 80px;
+    object-fit: cover;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: 40px;
+
+}
+
+.fifth>img{
+    box-sizing: border-box;
+    height: 80px;   
+    width: 80px;
+    object-fit: cover;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: 40px;
+
+}
+
+.sixth>img{
+    box-sizing: border-box;
+    height: 80px;   
+    width: 80px;
+    object-fit: cover;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: 40px;
+
+}
+
+.midfooter{
+    margin: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: purple;
+    height: 180px;
+}
+
+.head_foot {
+   display: flex;
+   align-self: center;
+}
+
+.head_foot>h1{
+    line-height: 3.5;
+   border-bottom: 2px solid black;
+   color: white;
+   
+}
+
+.midfooter .form{
+    margin-top: 20px;
+    display: flex;
+    align-self: center;
+}
+
+
+/* Section Testimonials */
+
+.test_members_title_section .title{
+    display: grid;
+    grid-template-areas: ". h1 .";
+    margin-bottom: 40px;
+}
+
+.test_members_title_section .title h1{
+    grid-area: h1;
+    text-align: center;
+    border-bottom: 2px solid black;
+    line-height: 3.5;
+    font-size: 36px;
+}
+
+.test_members{
+    padding: 30px;
+    display: grid;
+    grid-template-areas: 
+    "profile1 profile2 profile3"
+    "profile4 profile5 profile6";
+    gap: 10px;
+    margin-bottom: 100px;
+    
+}
+
+.test_members img{
+    box-sizing: border-box;
+    height: 80px;   
+    width: 80px;
+    object-fit: cover;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.test_members .prof_description p{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.test_members .info p{
+    text-align: center;
+}
+
+
+.profile1{
+    grid-area: profile1;
+
+}
+
+.profile1 .info p{
+    text-align: center;
+}
+
+.profile2{
+    grid-area: profile2;
+
+}
+
+.profile2 .info2 p{
+    text-align: center;
+}
+
+.profile3{
+    grid-area: profile3;
+
+}
+.profile3 .info3 p{
+    text-align: center;
+}
+.profile4{
+    grid-area: profile4;
+
+}
+
+.profile4 .info4 p{
+    text-align: center;
+}
+
+.profile5{
+    grid-area: profile5;
+
+}
+
+.profile5 .info5 p{
+    text-align: center;
+}
+
+.profile6{
+    grid-area: profile6;
+
+}
+
+.profile6 .info6 p{
+    text-align: center;
+}
+
+
+footer{
+    border-top: 3px solid lightgrey;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    height: 150px;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+footer .outro{
+    width: 280px;
+}
+
+footer .middle {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:center;
+    column-gap: 20px;
+
+} 
+
+footer .middle h1{
+    display: block;
+    width: 100px;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    align-self: auto;
+}
+
+.contacts h3{   
+    /* display: inline-block; */
+    margin-left: 40px;
+}
+
